@@ -1,0 +1,43 @@
+/* repositories page */
+.repo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem auto 2rem;
+  align-items: start;
+  justify-items: stretch;
+}
+
+.repo {
+  width: 100%;
+}
+
+
+.repo a {
+  text-decoration: none;
+  display: block;
+}
+
+.repo .card {
+  height: 100%;
+  width: 100%;
+  max-width: none;
+}
+
+.repo-desc {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.gh-icon {
+  margin-right: 0.5rem;
+  color: inherit;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(0,0,0,.14), transparent);
+  margin: 2rem 0;
+}

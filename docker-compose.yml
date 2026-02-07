@@ -12,6 +12,11 @@ services:
     #     GROUPNAME: # id -gn
     #     USERID: # id -u
     #     USERNAME: # echo $USER
+    oom_score_adj: 1000
+    deploy:
+      resources:
+        limits:
+          memory: 4GB
     ports:
       - 8080:8080
       - 35729:35729

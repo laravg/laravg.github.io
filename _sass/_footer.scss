@@ -33,3 +33,55 @@ footer.sticky-bottom {
     text-align: center;
   }
 }
+
+/* ========================= Pixel dog 🐕 ========================= */
+#pixel-dog-wrapper {
+  position: fixed;
+  bottom: 2.3rem;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 999;
+}
+
+#pixel-dog {
+  width: 45px;
+  height: 35px;
+  image-rendering: pixelated;
+  background-image: url("/assets/img/pug-walking.gif");
+  background-size: cover;
+  /* Two animations: constant walk + step bounce */
+  animation: dog-walk 55s linear infinite, dog-step 600ms steps(2, end) infinite;
+}
+
+/* Constant speed across the screen, flip, constant back */
+@keyframes dog-walk {
+  0% {
+    transform: translateX(-60px) scaleX(-1);
+  }
+
+  49% {
+    transform: translateX(calc(100vw)) scaleX(-1);
+  }
+
+  50% {
+    transform: translateX(calc(100vw)) scaleX(1);
+  }
+
+  100% {
+    transform: translateX(-60px) scaleX(1);
+  }
+}
+
+/* Tiny “walking steps” bounce (no easing, no acceleration) */
+@keyframes dog-step {
+
+  0%,
+  100% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 0 -2px;
+  }
+}

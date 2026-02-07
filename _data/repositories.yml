@@ -1,14 +1,20 @@
-github_users:
-  - torvalds
-  - alshedivat
+# github_users:
+#   - laravg
 
-repo_description_lines_max: 2
+repo_description_lines_max: 1
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - https://github.com/laravg/variant_analysis
+
+gitlab_repos:
+  - https://gitlab.citius.gal/lara.vazquez/16sgoseq
+  - https://gitlab.citius.gal/lara.vazquez/epheclass
+  - https://gitlab.citius.gal/lara.vazquez/oral16sampliconsimilarity
+  - https://gitlab.citius.gal/lara.vazquez/PrimerEvalPy
+
+repo_descriptions:
+  "https://github.com/laravg/variant_analysis": ""
+  "https://gitlab.citius.gal/lara.vazquez/16sgoseq": "16SGOSeq is a curated dataset and set of scripts for 16S rRNA gene sequences from oral bacteria and archaea, including gene copy numbers and intragenomic variants, designed to generate, filter, and analyze oral-specific 16S data in oral microbiome and 16S-based analyses."
+  "https://gitlab.citius.gal/lara.vazquez/epheclass": "EPheClass is a curated Python-based phenotype classification pipeline built on 16S rRNA gene amplicon count data that uses feature selection and machine-learning (including dynamic ensemble models) to distinguish samples by phenotype/disease. It’s designed to reduce data dimensionality and improve classification robustness for microbiome applications such as periodontal disease, IBD, or antibiotic exposure"
+  "https://gitlab.citius.gal/lara.vazquez/oral16sampliconsimilarity": "Oral16SAmpliconSimilarity is a set of scripts for in-silico analysis of 16S rRNA amplicon similarity across oral prokaryotic genomes, used to evaluate how primer choice and sequence similarity can lead to species indistinguishability in oral microbiome studies."
+  "https://gitlab.citius.gal/lara.vazquez/PrimerEvalPy": "PrimerEvalPy is a Python-based tool for in-silico evaluation of primers and primer pairs against sequencing databases, calculating coverage metrics and returning predicted amplicons with positions and taxonomic coverage to help choose the best primers for microbiome studies. It’s licensed under MIT and was developed to assess performance of primers (e.g., for 16S rRNA) across custom or published sequence sets."

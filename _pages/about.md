@@ -1,34 +1,29 @@
 ---
 layout: about
-title: about
+title: <i class="fa fa-home"></i>
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <small>PhD in Bioinformatics | AI Researcher @ <a href='https://www.cesga.es'>CESGA</a></small> 
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  align: left
+  image: LVG_Portrait_full_cropped.png
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p style="font-size: 14px;"><small>📍 Santiago de Compostela (Spain)</small></p><br>
+    <p style="font-size: 14px;"><small>💼 CESGA (Galicia Supercomputing Center)</small></p><br>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<p align="justify">
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+             
+I am an <strong>AI researcher</strong> at the <a href="https://www.cesga.es/en">Galicia Supercomputing Center (CESGA)</a>, where I work on the development of a One Health–oriented Data Space demonstrator.
+<br>
+I hold a <strong>PhD in Information Technology Research</strong> from the <a href="https://www.usc.gal/en">University of Santiago de Compostela (USC)</a>, funded by a Predoctoral Research Support Grant from the Xunta de Galicia.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My doctoral research was conducted in the field of <strong>bioinformatics</strong>, focusing on the application of machine learning techniques to improve and accelerate the diagnosis of microbial diseases, with a particular emphasis on periodontitis. As part of this work, I developed PrimerEvalPy, a tool for evaluating primers used in oral microbiome analysis.
+<br>
+Previously, I completed a <strong>Master’s degree in Bioinformatics and Biostatistics</strong> at the <a href="https://www.uoc.edu/en">Universitat Oberta de Catalunya (UOC)</a> &amp; <a href="https://web.ub.edu/en/">University of Barcelona (UB)</a>, and a <strong>Bachelor’s degree in Computer Engineering</strong> at <a href="https://www.usc.gal/en">USC</a>.
