@@ -6,7 +6,7 @@ subtitle: <small>PhD in Bioinformatics | AI Researcher @ <a href='https://www.ce
 
 profile:
   align: left
-  image: LVG_Portrait_full_cropped.png
+  image: lvg.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p style="font-size: 14px;"><small>📍 Santiago de Compostela (Spain)</small></p><br>

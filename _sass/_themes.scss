@@ -240,19 +240,6 @@ h1, h2, h3 {
   letter-spacing: -0.02em;
 }
 
-/* Smooth underline reveal on hover (GitHub-friendly, subtle) */
-a {
-  text-decoration: none;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size 150ms ease;
-}
-
-a:hover {
-  background-size: 100% 2px;
-}
 
 /* Optional: tiny “accent” for emphasized text */
 em {

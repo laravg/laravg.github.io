@@ -1,189 +1,226 @@
 cv:
-  name: Lara Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Lara Vázquez González
+  label: PhD in Bioinformatics
+  email: vazquezgonzalezlara@gmail.com
+  location: Santiago de Compostela, Spain
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: "Bioinformatics researcher with a PhD in Information Technology Research specializing in microbiome analysis and machine learning for clinical metagenomics. Experienced in developing bioinformatics tools, microbiome databases, and predictive models for disease diagnosis. Currently working in artificial intelligence research applied to health data infrastructures."
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: laravg
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: laramariavazquezgonzalez
+    - network: ORCID
+      username: 0000-0002-0122-5266
+    - network: Google Scholar
+      username: F9JtFRwAAAAJ
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Education:
+      - institution: University of Santiago de Compostela
+        location: Santiago de Compostela, Spain
+        url: https://www.usc.gal/
+        area: "BIOMETA: Bioinformatics procedures for the advancement of the implementation of clinical metagenomics."
+        studyType: PhD in Information Technology Research
+        start_date: 2020
+        end_date: 2025
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed bioinformatics tools and pipelines for microbiome analysis.
+          - Applied machine learning models for disease classification from microbiome data.
+          - Developed PrimerEvalPy for in-silico evaluation of microbiome primers.
+
+      - institution: Universitat Oberta de Catalunya
+        location: Barcelona, Spain
+        url: https://www.uoc.edu
+        area: Bioinformatics and Biostatistics
+        studyType: MSc in Bioinformatics and Biostatistics
+        start_date: 2019
+        end_date: 2020
+
+      - institution: University of Santiago de Compostela
+        location: Santiago de Compostela, Spain
+        url: https://www.usc.gal/
+        area: Computer Science
+        studyType: BSc in Computer Engineering
+        start_date: 2015
+        end_date: 2019
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Centro de Supercomputación de Galicia (CESGA)
+        position: AI Research Technician
+        location: Santiago de Compostela, Spain
+        start_date: 2025-06
+        summary: Research and development of artificial intelligence applications in health data infrastructures and One-Health data spaces.
+
+      - company: University of Santiago de Compostela
+        position: Predoctoral Researcher
+        location: Santiago de Compostela, Spain
+        start_date: 2020-10
+        end_date: 2025-05
         highlights:
-          - Relativity
-          - Description 2.
+          - Research in microbiome bioinformatics and machine learning.
+          - Development of bioinformatics tools and pipelines for metagenomics.
+          - Participation in clinical microbiome research projects.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: Altia
+        position: Software Developer
+        location: Santiago de Compostela, Spain
+        start_date: 2019-07
+        end_date: 2020-09
+        summary: Software development in industry environment.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: University of Santiago de Compostela (CiTIUS)
+        position: Research Intern
+        location: Santiago de Compostela, Spain
+        start_date: 2020-02
+        end_date: 2020-04
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Altia
+        position: Software Engineering Intern
+        location: Santiago de Compostela, Spain
+        start_date: 2019-03
+        end_date: 2019-05
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    - title: "EPheClass: ensemble-based phenotype classifier from 16S rRNA gene sequences"
+      authors:
+        - Lara Vázquez González
+        - Carlos Peña-Reyes
+        - Alba Regueira-Iglesias
+        - Carlos Balsa-Castro
+        - Inmaculada Tomás
+        - María J. Carreira
+      publisher: Frontiers in Bioinformatics
+      releaseDate: 2025-09-30
+      url: https://doi.org/10.3389/fbinf.2025.1514880
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    - title: A curated bacterial and archaeal 16S rRNA Gene Oral Sequences dataset
+      authors:
+        - Lara Vázquez González
+        - Alba Regueira-Iglesias
+        - Carlos Balsa-Castro
+        - Inmaculada Tomás
+        - María J. Carreira
+      publisher: Scientific Data
+      releaseDate: 2025-05-02
+      url: https://doi.org/10.1038/s41597-025-05050-4
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    - title: "PrimerEvalPy: a tool for in-silico evaluation of primers for targeting the microbiome"
+      authors:
+        - Lara Vázquez González
+        - Alba Regueira-Iglesias
+        - Carlos Balsa-Castro
+        - Nicolás Vila-Blanco
+        - Inmaculada Tomás
+        - María J. Carreira
+      publisher: BMC Bioinformatics
+      releaseDate: 2024-05-14
+      url: https://doi.org/10.1186/s12859-024-05805-7
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    - title: Impact of 16S rRNA Gene Redundancy and Primer Pair Selection on the Quantification and Classification of Oral Microbiota in Next-Generation Sequencing
+      authors:
+        - Alba Regueira-Iglesias
+        - Lara Vázquez González
+        - Carlos Balsa-Castro
+        - Triana Blanco-Pintos
+        - Nicolás Vila-Blanco
+        - María J. Carreira
+        - Inmaculada Tomás
+      publisher: Microbiology Spectrum
+      releaseDate: 2023-04-13
+      url: https://doi.org/10.1128/spectrum.04398-22
+
+    - title: In silico evaluation and selection of the best 16S rRNA gene primers for use in next-generation sequencing to detect oral bacteria and archaea
+      authors:
+        - Alba Regueira-Iglesias
+        - Lara Vázquez González
+        - Carlos Balsa-Castro
+        - Nicolás Vila-Blanco
+        - Triana Blanco-Pintos
+        - Javier Tamames
+        - María J. Carreira
+        - Inmaculada Tomás
+      publisher: Microbiome
+      releaseDate: 2023-03-23
+      url: https://doi.org/10.1186/s40168-023-01481-6
+
+    - title: In-Silico Detection of Oral Prokaryotic Species With Highly Similar 16S rRNA Sequence Segments Using Different Primer Pairs
+      authors:
+        - Alba Regueira-Iglesias
+        - Lara Vázquez González
+        - Carlos Balsa-Castro
+        - Triana Blanco-Pintos
+        - Benjamín Martín-Biedma
+        - Víctor M. Arce
+        - María J. Carreira
+        - Inmaculada Tomás
+      publisher: Frontiers in Cellular and Infection Microbiology
+      releaseDate: 2022-02-09
+      url: https://doi.org/10.3389/fcimb.2021.770668
+
+    Conferences:
+      - title: An Ensemble-Based Phenotype Classifier to Diagnose Crohn’s Disease from 16S rRNA Gene Sequences
+        event: Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA 2023)
+        location: Valencia, Spain
+        date: 2023-06
+        authors:
+          - Lara Vázquez González
+          - Carlos Peña Reyes
+          - Carlos Balsa Castro
+          - Inmaculada Tomás
+          - María J. Carreira
+
+      - title: "PrimerEvalPy: a tool for in-silico evaluation of primers for targeting the microbiome"
+        event: IEEE Engineering in Medicine and Biology Society Annual Conference
+        date: 2021-11
+        authors:
+          - Lara Vázquez González
+          - Alba Regueira Iglesias
+          - Carlos Balsa Castro
+          - Nicolás Vila Blanco
+          - Inmaculada Tomás
+          - María J. Carreira
+
+    Grants:
+      - title: Predoctoral Fellowship (ED481A-2021)
+        awarder: Xunta de Galicia
+        date: 2021
+        summary: Competitive fellowship supporting doctoral research.
+
+    Technical Background:
+      - name: Bioinformatics
+        keywords:
+          - Microbiome analysis
+          - Metagenomics
+          - 16S rRNA analysis
+          - NGS data analysis
+
+      - name: Machine Learning
+        keywords:
+          - Random Forest
+          - SVM
+          - Neural Networks
+          - Feature selection
+          - Classification models
+
+      - name: Programming
+        keywords:
+          - Python
+          - Biopython
+          - pandas
+          - scikit-learn
+          - Data analysis
+          - Machine learning pipelines
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Spanish
+        summary: Native
+
+      - name: Galician
+        summary: Native
 
       - name: English
-        summary: "Fluent"
+        summary: C2 Proficiency (Cambridge)
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.

@@ -1,4 +1,13 @@
 $(document).ready(function () {
+  // make the pixel dog jump on click
+  $("#pixel-dog").click(function () {
+    var $dog = $(this);
+    $dog.addClass("jumping");
+    setTimeout(function () {
+      $dog.removeClass("jumping");
+    }, 600);
+  });
+
   // add toggle functionality to abstract, award and bibtex buttons
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
