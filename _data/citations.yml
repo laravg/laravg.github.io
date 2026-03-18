@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-13'
+  last_updated: '2026-03-18'
 papers:
   F9JtFRwAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -14,7 +14,7 @@ papers:
     title: "Correction for Regueira-Iglesias et al.,\u201CImpact of 16S rRNA Gene Redundancy and Primer Pair Selection on the Quantification and Classification of Oral Microbiota in Next \u2026"
     year: '2024'
   F9JtFRwAAAAJ:Tyk-4Ss8FVUC:
-    citations: 5
+    citations: 6
     title: 'PrimerEvalPy: a tool for in-silico evaluation of primers for targeting the microbiome'
     year: '2024'
   F9JtFRwAAAAJ:UeHWp8X0CEIC:
