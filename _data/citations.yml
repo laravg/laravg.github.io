@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-18'
+  last_updated: '2026-04-17'
 papers:
   F9JtFRwAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -22,7 +22,7 @@ papers:
     title: "16SPyPrimer: un paquete en Python para el an\xE1lisis de la cobertura de primers del gen 16S rRNA"
     year: '2020'
   F9JtFRwAAAAJ:W7OEmFMy1HYC:
-    citations: 25
+    citations: 26
     title: In silico evaluation and selection of the best 16S rRNA gene primers for use in next-generation sequencing to detect oral bacteria and archaea
     year: '2023'
   F9JtFRwAAAAJ:Y0pCki6q_DkC:
