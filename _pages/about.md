@@ -2,7 +2,7 @@
 layout: about
 title: <i class="fa fa-home"></i>
 permalink: /
-subtitle: <small>PhD in Information Technology Research (Bioinformatics) | Collaborating Researcher @ <a href='https://www.usc.gal/en'>USC</a></small> 
+subtitle: <small>PhD in Information Technology Research (Bioinformatics) | Collaborating Researcher @ <a href='https://www.usc.gal/en'>USC</a></small>
 
 profile:
   align: left

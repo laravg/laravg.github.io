@@ -1,8 +1,8 @@
 {% if include.repository contains 'http' %}
   {% assign repo_name = include.repository | split: '/' | last %}
   {% assign desc = site.data.repositories.repo_descriptions[include.repository] %}
-  {% if desc == nil %}
-    {% assign desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit." %}
+  {% if desc == null %}
+    {% assign desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' %}
   {% endif %}
   <div class="repo">
     <a href="{{ include.repository }}">
@@ -50,9 +50,11 @@
   {% endif %}
 
   {% capture github_full_url %}https://github.com/{{ include.repository }}{% endcapture %}
-  {% assign desc = site.data.repositories.repo_descriptions[include.repository] | default: site.data.repositories.repo_descriptions[github_full_url] %}
-  {% if desc == nil %}
-    {% assign desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit." %}
+  {% assign desc = site.data.repositories.repo_descriptions[include.repository]
+    | default: site.data.repositories.repo_descriptions[github_full_url]
+  %}
+  {% if desc == null %}
+    {% assign desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' %}
   {% endif %}
 
   <div class="repo">

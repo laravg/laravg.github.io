@@ -9,7 +9,6 @@ nav_order: 4
 
 <link rel="stylesheet" href="{{ '/assets/css/repositories.css' | relative_url }}">
 
-
 {% if site.data.repositories.github_users %}
 
 ## GitHub users

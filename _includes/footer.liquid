@@ -12,27 +12,27 @@ Last updated: {{ 'now' | date: '%B %d, %Y' }}.
 {% endcapture %}
 
 {% if site.footer_fixed %}
-<div id="pixel-dog-wrapper" aria-hidden="true">
-  <div id="pixel-dog"></div>
-</div>
-
-<footer class="fixed-bottom" role="contentinfo">
-  <div class="container mt-0">
-    {{ footer_contents }}
+  <div id="pixel-dog-wrapper" aria-hidden="true">
+    <div id="pixel-dog"></div>
   </div>
-</footer>
+
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      {{ footer_contents }}
+    </div>
+  </footer>
 {% else %}
-<div id="pixel-dog-wrapper" aria-hidden="true">
-  <div id="pixel-dog"></div>
-</div>
-
-<footer class="sticky-bottom mt-5" role="contentinfo">
-  {% if site.newsletter.enabled %}
-  {% include newsletter.liquid %}
-  {% endif %}
-
-  <div class="container">
-    {{ footer_contents }}
+  <div id="pixel-dog-wrapper" aria-hidden="true">
+    <div id="pixel-dog"></div>
   </div>
-</footer>
+
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    {% if site.newsletter.enabled %}
+      {% include newsletter.liquid %}
+    {% endif %}
+
+    <div class="container">
+      {{ footer_contents }}
+    </div>
+  </footer>
 {% endif %}

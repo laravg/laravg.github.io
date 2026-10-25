@@ -1,14 +1,6 @@
 name: Render a CV
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  # Automatic run on push disabled: _data/cv.yml uses al-folio's CV format, not RenderCV's.
   workflow_call:
   workflow_dispatch:
 permissions:

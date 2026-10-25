@@ -17,7 +17,6 @@ cv:
       username: F9JtFRwAAAAJ
 
   sections:
-
     Education:
       - institution: University of Santiago de Compostela
         location: Santiago de Compostela, Spain
@@ -97,81 +96,81 @@ cv:
         end_date: 2019-05
 
     Publications:
-    - title: "EPheClass: ensemble-based phenotype classifier from 16S rRNA gene sequences"
-      authors:
-        - Lara Vázquez-González
-        - Carlos Peña-Reyes
-        - Alba Regueira-Iglesias
-        - Carlos Balsa-Castro
-        - Inmaculada Tomás
-        - María J. Carreira
-      publisher: Frontiers in Bioinformatics
-      releaseDate: 2025-09-30
-      url: https://doi.org/10.3389/fbinf.2025.1514880
+      - title: "EPheClass: ensemble-based phenotype classifier from 16S rRNA gene sequences"
+        authors:
+          - Lara Vázquez-González
+          - Carlos Peña-Reyes
+          - Alba Regueira-Iglesias
+          - Carlos Balsa-Castro
+          - Inmaculada Tomás
+          - María J. Carreira
+        publisher: Frontiers in Bioinformatics
+        releaseDate: 2025-09-30
+        url: https://doi.org/10.3389/fbinf.2025.1514880
 
-    - title: A curated bacterial and archaeal 16S rRNA Gene Oral Sequences dataset
-      authors:
-        - Lara Vázquez-González
-        - Alba Regueira-Iglesias
-        - Carlos Balsa-Castro
-        - Inmaculada Tomás
-        - María J. Carreira
-      publisher: Scientific Data
-      releaseDate: 2025-05-02
-      url: https://doi.org/10.1038/s41597-025-05050-4
+      - title: A curated bacterial and archaeal 16S rRNA Gene Oral Sequences dataset
+        authors:
+          - Lara Vázquez-González
+          - Alba Regueira-Iglesias
+          - Carlos Balsa-Castro
+          - Inmaculada Tomás
+          - María J. Carreira
+        publisher: Scientific Data
+        releaseDate: 2025-05-02
+        url: https://doi.org/10.1038/s41597-025-05050-4
 
-    - title: "PrimerEvalPy: a tool for in-silico evaluation of primers for targeting the microbiome"
-      authors:
-        - Lara Vázquez-González
-        - Alba Regueira-Iglesias
-        - Carlos Balsa-Castro
-        - Nicolás Vila-Blanco
-        - Inmaculada Tomás
-        - María J. Carreira
-      publisher: BMC Bioinformatics
-      releaseDate: 2024-05-14
-      url: https://doi.org/10.1186/s12859-024-05805-7
+      - title: "PrimerEvalPy: a tool for in-silico evaluation of primers for targeting the microbiome"
+        authors:
+          - Lara Vázquez-González
+          - Alba Regueira-Iglesias
+          - Carlos Balsa-Castro
+          - Nicolás Vila-Blanco
+          - Inmaculada Tomás
+          - María J. Carreira
+        publisher: BMC Bioinformatics
+        releaseDate: 2024-05-14
+        url: https://doi.org/10.1186/s12859-024-05805-7
 
-    - title: Impact of 16S rRNA Gene Redundancy and Primer Pair Selection on the Quantification and Classification of Oral Microbiota in Next-Generation Sequencing
-      authors:
-        - Alba Regueira-Iglesias
-        - Lara Vázquez-González
-        - Carlos Balsa-Castro
-        - Triana Blanco-Pintos
-        - Nicolás Vila-Blanco
-        - María J. Carreira
-        - Inmaculada Tomás
-      publisher: Microbiology Spectrum
-      releaseDate: 2023-04-13
-      url: https://doi.org/10.1128/spectrum.04398-22
+      - title: Impact of 16S rRNA Gene Redundancy and Primer Pair Selection on the Quantification and Classification of Oral Microbiota in Next-Generation Sequencing
+        authors:
+          - Alba Regueira-Iglesias
+          - Lara Vázquez-González
+          - Carlos Balsa-Castro
+          - Triana Blanco-Pintos
+          - Nicolás Vila-Blanco
+          - María J. Carreira
+          - Inmaculada Tomás
+        publisher: Microbiology Spectrum
+        releaseDate: 2023-04-13
+        url: https://doi.org/10.1128/spectrum.04398-22
 
-    - title: In silico evaluation and selection of the best 16S rRNA gene primers for use in next-generation sequencing to detect oral bacteria and archaea
-      authors:
-        - Alba Regueira-Iglesias
-        - Lara Vázquez-González
-        - Carlos Balsa-Castro
-        - Nicolás Vila-Blanco
-        - Triana Blanco-Pintos
-        - Javier Tamames
-        - María J. Carreira
-        - Inmaculada Tomás
-      publisher: Microbiome
-      releaseDate: 2023-03-23
-      url: https://doi.org/10.1186/s40168-023-01481-6
+      - title: In silico evaluation and selection of the best 16S rRNA gene primers for use in next-generation sequencing to detect oral bacteria and archaea
+        authors:
+          - Alba Regueira-Iglesias
+          - Lara Vázquez-González
+          - Carlos Balsa-Castro
+          - Nicolás Vila-Blanco
+          - Triana Blanco-Pintos
+          - Javier Tamames
+          - María J. Carreira
+          - Inmaculada Tomás
+        publisher: Microbiome
+        releaseDate: 2023-03-23
+        url: https://doi.org/10.1186/s40168-023-01481-6
 
-    - title: In-Silico Detection of Oral Prokaryotic Species With Highly Similar 16S rRNA Sequence Segments Using Different Primer Pairs
-      authors:
-        - Alba Regueira-Iglesias
-        - Lara Vázquez-González
-        - Carlos Balsa-Castro
-        - Triana Blanco-Pintos
-        - Benjamín Martín-Biedma
-        - Víctor M. Arce
-        - María J. Carreira
-        - Inmaculada Tomás
-      publisher: Frontiers in Cellular and Infection Microbiology
-      releaseDate: 2022-02-09
-      url: https://doi.org/10.3389/fcimb.2021.770668
+      - title: In-Silico Detection of Oral Prokaryotic Species With Highly Similar 16S rRNA Sequence Segments Using Different Primer Pairs
+        authors:
+          - Alba Regueira-Iglesias
+          - Lara Vázquez-González
+          - Carlos Balsa-Castro
+          - Triana Blanco-Pintos
+          - Benjamín Martín-Biedma
+          - Víctor M. Arce
+          - María J. Carreira
+          - Inmaculada Tomás
+        publisher: Frontiers in Cellular and Infection Microbiology
+        releaseDate: 2022-02-09
+        url: https://doi.org/10.3389/fcimb.2021.770668
 
     Conferences:
       - title: An Ensemble-Based Phenotype Classifier to Diagnose Crohn’s Disease from 16S rRNA Gene Sequences
@@ -244,4 +243,3 @@ cv:
 
       - name: English
         summary: C2 Proficiency (Cambridge)
-

@@ -155,7 +155,11 @@ layout: default
                 {% assign entries = section_entries %}
                 {% include cv/education.liquid %}
 
-              {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' or section_title == 'Grants' or section_title == 'Grants and Fellowships' %}
+              {% elsif section_title == 'Awards'
+                or section_title == 'Honors and Awards'
+                or section_title == 'Grants'
+                or section_title == 'Grants and Fellowships'
+              %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
 
@@ -197,7 +201,6 @@ layout: default
         {% endfor %}
 
       {% elsif render_jsonresume and site.data.resume %}
-
         {% if site.data.resume.basics %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Contact Information</h3>
@@ -301,14 +304,19 @@ layout: default
                     <div>
                       {% if entry.name %}
                         {% if entry.url %}
-                          <strong><a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.name }}</a></strong>
+                          <strong
+                            ><a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.name }}</a></strong
+                          >
                         {% else %}
                           <strong>{{ entry.name }}</strong>
                         {% endif %}
                       {% endif %}
                     </div>
                     {% if entry.publisher %}
-                      <div><em>{{ entry.publisher }}</em>{% if entry.releaseDate %} · {{ entry.releaseDate }}{% endif %}</div>
+                      <div>
+                        <em>{{ entry.publisher }}</em>
+                        {%- if entry.releaseDate %} · {{ entry.releaseDate }}{% endif %}
+                      </div>
                     {% elsif entry.releaseDate %}
                       <div>{{ entry.releaseDate }}</div>
                     {% endif %}

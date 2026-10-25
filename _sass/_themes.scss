@@ -15,12 +15,12 @@
   --global-text-color-light: #{v.$grey-color};
 
   /* 🌿 Sage green accents */
-  --global-theme-color: #7FA89A;
-  --global-hover-color: #6B9487;
+  --global-theme-color: #7fa89a;
+  --global-hover-color: #6b9487;
   --global-hover-text-color: #{v.$white-color};
 
   /* ✨ Secondary accent (use sparingly for personality) */
-  --accent-soft: #D8C7A6;
+  --accent-soft: #d8c7a6;
 
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};
@@ -28,8 +28,8 @@
   --global-distill-app-color: #{v.$grey-color};
 
   --global-divider-color: rgba(127, 168, 154, 0.25);
-  --global-card-bg-color: #FBFDFC;
-  --global-highlight-color: #6B9487;
+  --global-card-bg-color: #fbfdfc;
+  --global-highlight-color: #6b9487;
 
   --global-back-to-top-bg-color: rgba(127, 168, 154, 0.45);
   --global-back-to-top-text-color: #{v.$white-color};
@@ -93,12 +93,12 @@ html[data-theme="dark"] {
   --global-text-color-light: #{v.$grey-color};
 
   /* 🌿 Sage accents for dark mode */
-  --global-theme-color: #9BC4B5;
-  --global-hover-color: #B6D9CC;
+  --global-theme-color: #9bc4b5;
+  --global-hover-color: #b6d9cc;
   --global-hover-text-color: #{v.$black-color};
 
   /* ✨ Secondary accent for dark mode */
-  --accent-soft: #CBBFA6;
+  --accent-soft: #cbbfa6;
 
   --global-footer-bg-color: #{v.$grey-color-light};
   --global-footer-text-color: #{v.$grey-color-dark};
@@ -236,10 +236,11 @@ body {
 }
 
 /* Slightly tighter headings (more “designed”) */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   letter-spacing: -0.02em;
 }
-
 
 /* Optional: tiny “accent” for emphasized text */
 em {
