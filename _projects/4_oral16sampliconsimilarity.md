@@ -2,7 +2,7 @@
 layout: page
 title: Oral 16S amplicon similarity
 description: In-silico analysis of which oral species become indistinguishable depending on the 16S rRNA primer pair used.
-importance: 5
+importance: 4
 related_publications: true
 ---
 

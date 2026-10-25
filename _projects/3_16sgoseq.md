@@ -2,7 +2,7 @@
 layout: page
 title: 16SGOSeq
 description: Curated database of 16S rRNA genes and intragenomic variants from the complete genomes of oral bacteria and archaea. Published in Scientific Data.
-importance: 4
+importance: 2
 related_publications: true
 ---
 

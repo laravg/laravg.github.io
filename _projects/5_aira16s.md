@@ -2,7 +2,7 @@
 layout: page
 title: AIRA16S
 description: Automated inventory of human 16S rRNA sequencing projects in public databases, integrated into a health data space.
-importance: 2
+importance: 5
 ---
 
 **Problem.** Thousands of 16S rRNA sequencing projects are deposited in public repositories such as the NCBI Sequence Read Archive (SRA), but their metadata is unstructured and inconsistent. That makes it hard to find and reuse the right projects for human microbiome studies, for example all projects from a given anatomical site or targeting a specific hypervariable region.

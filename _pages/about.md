@@ -49,6 +49,6 @@ I am <strong>open to new opportunities</strong> in bioinformatics, data science 
 ### Featured projects
 
 - [**PrimerEvalPy**]({{ '/projects/1_primerevalpy/' | relative_url }}): Python tool for in-silico evaluation of microbiome primers (_BMC Bioinformatics_, 2024)
-- [**AIRA16S**]({{ '/projects/5_aira16s/' | relative_url }}): automated inventory of human 16S rRNA sequencing projects from public databases (CESGA & CiTIUS, 2026)
-- [**EPheClass**]({{ '/projects/2_epheclass/' | relative_url }}): ML pipeline for disease classification from 16S rRNA data (_Frontiers in Bioinformatics_, 2025)
 - [**16SGOSeq**]({{ '/projects/3_16sgoseq/' | relative_url }}): curated database of oral 16S rRNA gene sequences (_Scientific Data_, 2025)
+- [**EPheClass**]({{ '/projects/2_epheclass/' | relative_url }}): ML pipeline for disease classification from 16S rRNA data (_Frontiers in Bioinformatics_, 2025)
+- [**AIRA16S**]({{ '/projects/5_aira16s/' | relative_url }}): automated inventory of human 16S rRNA sequencing projects from public databases (CESGA & CiTIUS, 2026)

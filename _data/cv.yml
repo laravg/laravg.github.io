@@ -41,7 +41,7 @@ cv:
       - institution: University of Santiago de Compostela
         location: Santiago de Compostela, Spain
         url: https://www.usc.gal/
-        area: Computer Science
+        area: Computer Engineering
         studyType: BSc in Computer Engineering
         start_date: 2015
         end_date: 2019
@@ -175,7 +175,7 @@ cv:
     Conferences:
       - title: An Ensemble-Based Phenotype Classifier to Diagnose Crohn’s Disease from 16S rRNA Gene Sequences
         event: Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA 2023)
-        location: Valencia, Spain
+        location: Alicante, Spain
         date: 2023-06
         authors:
           - Lara Vázquez-González
