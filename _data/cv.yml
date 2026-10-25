@@ -1,10 +1,10 @@
 cv:
   name: Lara Vázquez González
-  label: PhD in Bioinformatics
+  label: PhD in Information Technology Research (Bioinformatics)
   email: vazquezgonzalezlara@gmail.com
   location: Santiago de Compostela, Spain
   image: ""
-  summary: "Bioinformatics researcher with a PhD in Information Technology Research specializing in microbiome analysis and machine learning for clinical metagenomics. Experienced in developing bioinformatics tools, microbiome databases, and predictive models for disease diagnosis. Currently working in artificial intelligence research applied to health data infrastructures."
+  summary: "Bioinformatics researcher with a PhD in Information Technology Research specializing in microbiome analysis and machine learning for clinical metagenomics. Experienced in developing bioinformatics tools, microbiome databases, and predictive models for disease diagnosis, as well as in artificial intelligence research applied to health data infrastructures."
 
   social_networks:
     - network: GitHub
@@ -48,11 +48,24 @@ cv:
         end_date: 2019
 
     Experience:
+      - company: University of Santiago de Compostela
+        position: Collaborating Researcher
+        location: Santiago de Compostela, Spain
+        start_date: 2026-09
+        summary: Bioinformatic data processing and analysis for microbiome research.
+        highlights:
+          - Processing of 16S rRNA amplicon sequencing data with QIIME 2 pipelines (denoising, taxonomic classification and diversity analyses).
+          - Reproducible statistical analyses in R for clinical research studies.
+
       - company: Centro de Supercomputación de Galicia (CESGA)
         position: AI Research Technician
         location: Santiago de Compostela, Spain
         start_date: 2025-06
-        summary: Research and development of artificial intelligence applications in health data infrastructures and One-Health data spaces.
+        end_date: 2026-06
+        summary: Research and development in health data infrastructures and One Health–oriented data spaces.
+        highlights:
+          - Developed AIRA16S, in collaboration with CiTIUS (USC), an automated pipeline and database that inventories human 16S rRNA sequencing projects from NCBI SRA, BioProject, PubMed and Europe PMC, enriching their metadata (anatomical site, hypervariable region, publication, quality metrics). Integrated into the data space.
+          - Contributed to the development and management of a One Health–oriented data space demonstrator, including the engagement of participating organisations.
 
       - company: University of Santiago de Compostela
         position: Predoctoral Researcher
@@ -86,7 +99,7 @@ cv:
     Publications:
     - title: "EPheClass: ensemble-based phenotype classifier from 16S rRNA gene sequences"
       authors:
-        - Lara Vázquez González
+        - Lara Vázquez-González
         - Carlos Peña-Reyes
         - Alba Regueira-Iglesias
         - Carlos Balsa-Castro
@@ -98,7 +111,7 @@ cv:
 
     - title: A curated bacterial and archaeal 16S rRNA Gene Oral Sequences dataset
       authors:
-        - Lara Vázquez González
+        - Lara Vázquez-González
         - Alba Regueira-Iglesias
         - Carlos Balsa-Castro
         - Inmaculada Tomás
@@ -109,7 +122,7 @@ cv:
 
     - title: "PrimerEvalPy: a tool for in-silico evaluation of primers for targeting the microbiome"
       authors:
-        - Lara Vázquez González
+        - Lara Vázquez-González
         - Alba Regueira-Iglesias
         - Carlos Balsa-Castro
         - Nicolás Vila-Blanco
@@ -122,7 +135,7 @@ cv:
     - title: Impact of 16S rRNA Gene Redundancy and Primer Pair Selection on the Quantification and Classification of Oral Microbiota in Next-Generation Sequencing
       authors:
         - Alba Regueira-Iglesias
-        - Lara Vázquez González
+        - Lara Vázquez-González
         - Carlos Balsa-Castro
         - Triana Blanco-Pintos
         - Nicolás Vila-Blanco
@@ -135,7 +148,7 @@ cv:
     - title: In silico evaluation and selection of the best 16S rRNA gene primers for use in next-generation sequencing to detect oral bacteria and archaea
       authors:
         - Alba Regueira-Iglesias
-        - Lara Vázquez González
+        - Lara Vázquez-González
         - Carlos Balsa-Castro
         - Nicolás Vila-Blanco
         - Triana Blanco-Pintos
@@ -149,7 +162,7 @@ cv:
     - title: In-Silico Detection of Oral Prokaryotic Species With Highly Similar 16S rRNA Sequence Segments Using Different Primer Pairs
       authors:
         - Alba Regueira-Iglesias
-        - Lara Vázquez González
+        - Lara Vázquez-González
         - Carlos Balsa-Castro
         - Triana Blanco-Pintos
         - Benjamín Martín-Biedma
@@ -166,9 +179,9 @@ cv:
         location: Valencia, Spain
         date: 2023-06
         authors:
-          - Lara Vázquez González
-          - Carlos Peña Reyes
-          - Carlos Balsa Castro
+          - Lara Vázquez-González
+          - Carlos Peña-Reyes
+          - Carlos Balsa-Castro
           - Inmaculada Tomás
           - María J. Carreira
 
@@ -176,10 +189,10 @@ cv:
         event: IEEE Engineering in Medicine and Biology Society Annual Conference
         date: 2021-11
         authors:
-          - Lara Vázquez González
-          - Alba Regueira Iglesias
-          - Carlos Balsa Castro
-          - Nicolás Vila Blanco
+          - Lara Vázquez-González
+          - Alba Regueira-Iglesias
+          - Carlos Balsa-Castro
+          - Nicolás Vila-Blanco
           - Inmaculada Tomás
           - María J. Carreira
 
@@ -196,6 +209,8 @@ cv:
           - Metagenomics
           - 16S rRNA analysis
           - NGS data analysis
+          - QIIME 2
+          - BLAST
 
       - name: Machine Learning
         keywords:
@@ -208,11 +223,17 @@ cv:
       - name: Programming
         keywords:
           - Python
+          - R
           - Biopython
           - pandas
           - scikit-learn
-          - Data analysis
-          - Machine learning pipelines
+
+      - name: Computing & Tools
+        keywords:
+          - HPC environments
+          - Docker
+          - Git
+          - Reproducible pipelines
 
     Languages:
       - name: Spanish
