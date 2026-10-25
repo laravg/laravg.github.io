@@ -1,0 +1,197 @@
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{charter}
+\usepackage[top=1.4cm, bottom=1.4cm, left=0.9cm, right=1.4cm]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{microtype}
+\usepackage{fontawesome5}
+\usepackage{paracol}
+\usepackage{eso-pic}
+\usepackage{needspace}
+\usepackage{ragged2e}
+\setlength{\JustifyingParindent}{0pt}
+\setlength{\RaggedRightParindent}{0pt}
+
+%% COLORES
+\definecolor{accent}{HTML}{1F4E79}
+\definecolor{lightaccent}{HTML}{2E75B6}
+\definecolor{gray}{HTML}{555555}
+\definecolor{lightgray}{HTML}{888888}
+\definecolor{rulegray}{HTML}{CCCCCC}
+\definecolor{sidebg}{HTML}{EEF3F8}
+\definecolor{tagbg}{HTML}{DCE6F1}
+
+\hypersetup{colorlinks=true, urlcolor=lightaccent, linkcolor=lightaccent,
+  pdftitle={Lara Mar\'ia V\'azquez Gonz\'alez - CV}, pdfauthor={Lara Mar\'ia V\'azquez Gonz\'alez}}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+%% BARRA LATERAL: ancho de la franja de color y de la columna izquierda
+\newlength{\sidebarwidth}
+\setlength{\sidebarwidth}{6.0cm}
+\AddToShipoutPictureBG{%
+  \AtPageLowerLeft{\color{sidebg}\rule{\sidebarwidth}{\paperheight}}}
+\setcolumnwidth{4.75cm, \dimexpr\textwidth-4.75cm-1.25cm\relax}
+\setlength{\columnsep}{1.25cm}
+
+\setlist[itemize]{leftmargin=1.1em, itemsep=2pt, topsep=2pt, parsep=0pt}
+
+%% MACROS
+% Titulo de seccion de la columna principal
+\newcommand{\mainsection}[1]{%
+  \vspace{9pt}{\large\bfseries\color{accent}#1}\par
+  \vspace{2pt}{\color{rulegray}\hrule}\vspace{5pt}}
+% Titulo de seccion de la barra lateral
+\newcommand{\sidesection}[1]{%
+  \ifhmode\unskip\unskip\fi\par\needspace{5\baselineskip}\vspace{11pt}{\normalsize\bfseries\color{accent}\MakeUppercase{#1}}\par
+  \vspace{5pt}{\color{accent}\hrule width 1.2cm height 1pt}\vspace{6pt}}
+% Linea de contacto con icono
+\newcommand{\contact}[2]{%
+  \makebox[1.2em][c]{\color{accent}#1}\hspace{2pt}{\footnotesize #2}\par\vspace{3pt}}
+% Etiqueta de habilidad
+\newcommand{\tag}[1]{%
+  {\setlength{\fboxsep}{2pt}\colorbox{tagbg}{\footnotesize\color{accent!90!black}\vphantom{Ag}#1}}\hspace{1pt plus 2pt}}
+% Entrada de experiencia: puesto, empresa, fechas, lugar
+\newcommand{\cventry}[4]{%
+  \begin{tabularx}{\linewidth}{@{}Xr@{}}
+    \textbf{#1} & \textcolor{lightaccent}{\small #3} \\
+    \textcolor{gray}{#2} & \textcolor{lightgray}{\small #4}
+  \end{tabularx}\par\vspace{1pt}}
+% Entrada de formacion en la barra lateral
+\newcommand{\eduentry}[3]{%
+  {\small\bfseries #1}\par
+  {\footnotesize\color{gray}#2}\par
+  {\footnotesize\color{lightaccent}#3}\par\vspace{4pt}}
+% Publicacion
+\newcommand{\cvpub}[5]{%
+  \item \textcolor{gray}{\small #1 (#2).} \textbf{\small #3.} \textit{\small #4.} \textcolor{lightaccent}{\small #5}}
+
+\begin{document}
+\begin{paracol}{2}
+
+%% ===================== BARRA LATERAL =====================
+\raggedright\hyphenpenalty=10000
+
+\vspace*{2pt}
+\sidesection{Contact}
+\contact{\faEnvelope}{\href{mailto:vazquezgonzalezlara@gmail.com}{vazquezgonzalezlara@gmail.com}}
+\contact{\faMapMarker*}{Santiago de Compostela}
+\contact{\faGlobe}{\href{https://laravg.github.io}{laravg.github.io}}
+
+\sidesection{Languages}
+{\small\textbf{English}\hfill C2 (Cambridge)}\par\vspace{3pt}
+{\small\textbf{Spanish}\hfill Native}\par\vspace{3pt}
+{\small\textbf{Galician}\hfill Native}\par
+
+\sidesection{Education}
+\eduentry{PhD in Information Technology Research}{Universidade de Santiago de Compostela}{2020 -- 2025}
+\eduentry{MSc in Bioinformatics and Biostatistics}{Universitat Oberta de Catalunya}{2019 -- 2020}
+\eduentry{BSc in Computer Engineering}{Universidade de Santiago de Compostela}{2015 -- 2019}
+
+\sidesection{Programming}
+\tag{Python} \tag{R} \tag{Bash} \tag{SQL}
+
+\sidesection{NGS and amplicons}
+\tag{QIIME 2} \tag{DADA2} \tag{cutadapt} \tag{VSEARCH} \tag{BLAST} \tag{decontam} \tag{MAFFT} \tag{FastTree}
+
+\sidesection{R}
+\tag{phyloseq} \tag{vegan} \tag{ANCOM-BC2} \tag{glmmTMB} \tag{lme4} \tag{dplyr} \tag{ggplot2} \tag{R Markdown}
+
+\sidesection{Python and ML}
+\tag{pandas} \tag{NumPy} \tag{scikit-learn} \tag{matplotlib} \tag{seaborn} \tag{pytest} \tag{ensemble learning} \tag{feature selection}
+
+\sidesection{Environments}
+\tag{Linux} \tag{HPC/SLURM} \tag{conda} \tag{Docker} \tag{Git} \tag{GitHub} \tag{GitLab}
+
+\sidesection{Currently learning}
+{\small\bfseries Nextflow}\par
+{\footnotesize\color{gray}Courses: Hello Nextflow and Nextflow Run (Seqera, 2026)}\par
+
+\sidesection{Profiles}
+\contact{\faLinkedin}{\href{https://linkedin.com/in/laramariavazquezgonzalez}{laramariavazquezgonzalez}}
+\contact{\faGithub}{\href{https://github.com/laravg}{github.com/laravg}}
+\contact{\faGitlab}{\href{https://gitlab.citius.gal/users/lara.vazquez/projects}{gitlab.citius.gal/lara.vazquez}}
+\contact{\faOrcid}{\href{https://orcid.org/0000-0002-0122-5266}{0000-0002-0122-5266}}
+\contact{\faGraduationCap}{\href{https://scholar.google.com/citations?user=F9JtFRwAAAAJ}{Google Scholar}}
+
+%% ===================== COLUMNA PRINCIPAL =====================
+\switchcolumn
+\justifying
+
+{\fontsize{24}{28}\selectfont\bfseries\color{accent} Lara Mar\'ia V\'azquez Gonz\'alez}\par
+\vspace{5pt}
+{\large\color{gray} Bioinformatics \textperiodcentered{} NGS Data Analysis \textperiodcentered{} Machine Learning}\par
+\vspace{6pt}
+{\color{accent}\rule{\linewidth}{1.5pt}}\par
+
+\mainsection{Profile}
+Bioinformatician with a PhD in Information Technology Research (USC, 2025), an MSc in Bioinformatics and Biostatistics and a degree in Computer Engineering. I work on NGS data analysis, mainly 16S rRNA amplicon sequencing and clinical metagenomics, building end-to-end analyses (quality control, preprocessing, statistical analysis and reporting) in Python, R and Bash on Linux and HPC environments with SLURM. I have developed open-source bioinformatics tools and applied machine learning to microbiome data. Six scientific publications, three as first author in Q1 journals.
+
+\mainsection{Experience}
+
+\cventry{Collaborating Researcher}{Universidade de Santiago de Compostela}{Sep 2026 -- Present}{Santiago de Compostela}
+\begin{itemize}
+  \item Processing of 16S rRNA amplicon sequencing data (V3-V4, Illumina paired-end) from clinical oral microbiome studies, combining several sequencing runs: quality control, primer trimming (cutadapt), per-run DADA2 denoising, taxonomic assignment (VSEARCH), contaminant removal with negative controls (decontam) and phylogeny (MAFFT, FastTree) in QIIME 2, with version-controlled scripts.
+  \item Statistical analysis in R (phyloseq, vegan, ANCOM-BC2, glmmTMB): alpha and beta diversity, PERMANOVA, differential abundance and mixed models for paired designs.
+  \item Methods and results reports (R Markdown and LaTeX) and documented deliverables for clinical research teams.
+\end{itemize}
+\vspace{6pt}
+
+\cventry{AI Research Technician}{CESGA, Galicia Supercomputing Center}{Jun 2025 -- Jun 2026}{Santiago de Compostela}
+\begin{itemize}
+  \item Developed AIRA16S during a research stay at CiTIUS (USC): a Python pipeline for the automated inventory of human 16S rRNA sequencing projects in public databases (NCBI SRA, BioProject, PubMed, Europe PMC), with LLM-based metadata extraction run on an HPC cluster, semantic validation and an interactive results viewer.
+  \item OneHealth DataSpace project (NextGenerationEU), following Scrum: first version of the project website (Next.js, TypeScript, Git) and support for the deployment of the data space platform.
+\end{itemize}
+\vspace{6pt}
+
+\cventry{Predoctoral Researcher}{USC, CiTIUS \textperiodcentered{} Xunta de Galicia grant ED481A-2021}{Oct 2020 -- May 2025}{Santiago de Compostela}
+\begin{itemize}
+  \item PhD thesis (BIOMETA) on bioinformatics procedures for microbiome analysis through 16S rRNA sequencing, applied to the oral microbiome, with model training and execution on an HPC cluster via SLURM.
+  \item Developed three open-source tools, version-controlled with Git and published on GitLab, each with a first-author Q1 publication: PrimerEvalPy, 16SGOSeq and EPheClass.
+  \item International research stay at HEIG-VD, Switzerland (2022), where I developed the first version of EPheClass.
+\end{itemize}
+\vspace{6pt}
+
+\cventry{Software Developer}{Altia}{Mar 2019 -- Sep 2020}{Santiago de Compostela}
+{\small\color{gray} Software development in an industry environment, first as an intern.}\par
+
+\mainsection{Software}
+\begin{itemize}[itemsep=3pt]
+  \item \textbf{PrimerEvalPy}: \textit{in silico} evaluation of primers and primer pairs against sequence databases, with coverage metrics at each taxonomic level. \href{https://gitlab.citius.gal/lara.vazquez/PrimerEvalPy}{\small [GitLab]}
+  \item \textbf{16SGOSeq}: curated database of 16S rRNA genes and their variants in complete genomes of oral bacteria and archaea, with taxonomy from domain to strain. \href{https://gitlab.citius.gal/lara.vazquez/16sgoseq}{\small [GitLab]}
+  \item \textbf{EPheClass}: phenotype classification from 16S rRNA count tables with a dynamic ensemble of machine learning models (kNN, Random Forest, SVM, XGBoost, MLP); ROC AUC 0.974. \href{https://gitlab.citius.gal/lara.vazquez/epheclass}{\small [GitLab]}
+  \item \textbf{Oral16SAmpliconSimilarity}: \textit{in silico} analysis of 16S rRNA amplicon similarity across oral prokaryotic genomes, to identify which species become indistinguishable depending on the primer pair used. \href{https://gitlab.citius.gal/lara.vazquez/oral16sampliconsimilarity}{\small [GitLab]}
+  \item \textbf{AIRA16S}: automated inventory of human 16S rRNA sequencing projects in public databases, with LLM-based metadata extraction and semantic validation, integrated into a health data space.
+\end{itemize}
+
+\mainsection{Publications}
+{\sloppy
+\begin{itemize}[itemsep=3pt]
+  \cvpub{V\'azquez-Gonz\'alez, L. et al.}{2024}{PrimerEvalPy: a tool for in-silico evaluation of primers for targeting the microbiome}{BMC Bioinformatics (Q1)}{\href{https://doi.org/10.1186/s12859-024-05805-7}{doi:10.1186/s12859-024-05805-7}}
+  \cvpub{V\'azquez-Gonz\'alez, L. et al.}{2025}{A curated bacterial and archaeal 16S rRNA Gene Oral Sequences dataset}{Scientific Data (Q1)}{\href{https://doi.org/10.1038/s41597-025-05050-4}{doi:10.1038/s41597-025-05050-4}}
+  \cvpub{V\'azquez-Gonz\'alez, L. et al.}{2025}{EPheClass: ensemble-based phenotype classifier from 16S rRNA gene sequences}{Frontiers in Bioinformatics (Q1)}{\href{https://doi.org/10.3389/fbinf.2025.1514880}{doi:10.3389/fbinf.2025.1514880}}
+  \cvpub{Regueira-Iglesias, A., V\'azquez-Gonz\'alez, L. et al.}{2023}{In silico evaluation and selection of the best 16S rRNA gene primers for use in next-generation sequencing to detect oral bacteria and archaea}{Microbiome (Q1)}{\href{https://doi.org/10.1186/s40168-023-01481-6}{doi:10.1186/s40168-023-01481-6}}
+  \cvpub{Regueira-Iglesias, A., V\'azquez-Gonz\'alez, L. et al.}{2023}{Impact of 16S rRNA Gene Redundancy and Primer Pair Selection on the Quantification and Classification of Oral Microbiota in Next-Generation Sequencing}{Microbiology Spectrum (Q2)}{\href{https://doi.org/10.1128/spectrum.04398-22}{doi:10.1128/spectrum.04398-22}}
+  \cvpub{Regueira-Iglesias, A., V\'azquez-Gonz\'alez, L. et al.}{2022}{In-Silico Detection of Oral Prokaryotic Species With Highly Similar 16S rRNA Sequence Segments Using Different Primer Pairs}{Frontiers in Cellular and Infection Microbiology (Q1)}{\href{https://doi.org/10.3389/fcimb.2021.770668}{doi:10.3389/fcimb.2021.770668}}
+\end{itemize}
+}
+
+\mainsection{Conferences}
+{\sloppy
+\begin{itemize}[itemsep=3pt]
+  \cvpub{V\'azquez-Gonz\'alez, L. et al.}{2023}{An Ensemble-Based Phenotype Classifier to Diagnose Crohn's Disease from 16S rRNA Gene Sequences}{11th Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA), Alicante. Poster}{\href{https://doi.org/10.1007/978-3-031-36616-1_44}{doi:10.1007/978-3-031-36616-1\_44}}
+  \cvpub{V\'azquez-Gonz\'alez, L. et al.}{2021}{PrimerEvalPy: a tool for in-silico evaluation of primers for targeting the microbiome}{43rd Annual International Conference of the IEEE Engineering in Medicine \& Biology Society (EMBC), online. One-page paper}{}
+\end{itemize}
+}
+
+\end{paracol}
+\end{document}
